@@ -1,9 +1,9 @@
 # View tensorboard logs for notebooks launched from SageMaker Studio
-## Steps
+## Steps ([detailed](./detailed_readme.md))
 
 - From SageMaker Studio Launcher Window, launch the System terminal (under Utilities and files) and run the below commands
 
-  ```pip install tensorflow```
+  ```pip install tensorboard```
 
   ```tensorboard --logdir ./logs/fit```
 
